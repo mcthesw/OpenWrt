@@ -17,3 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
+echo 'src-git udp2raw https://github.com/sensec/openwrt-udp2raw' >> feeds.conf.default
+echo 'src-git luci_udp2raw https://github.com/sensec/luci-app-udp2raw' >> feeds.conf.default
