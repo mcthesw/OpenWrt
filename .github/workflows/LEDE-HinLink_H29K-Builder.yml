@@ -37,7 +37,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: 最大化构建空间
-      uses: easimon/maximize-build-space@master
+      uses: easimon/maximize-build-space@v10
       with:
         root-reserve-mb: 8192
         swap-size-mb: 1024
